@@ -1,0 +1,141 @@
+/* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav {
+    background: #34495e;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+.content-section {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service-card {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 8px;
+    display: inline-block;
+    width: 30%;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.portfolio-item {
+    width: 30%;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 80%;
+    max-width: 600px;
+}
+
+form button {
+    background-color: #1abc9c;
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    background-color: #16a085;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
